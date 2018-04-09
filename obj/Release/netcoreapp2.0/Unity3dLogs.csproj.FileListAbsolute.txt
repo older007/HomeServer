@@ -1,0 +1,11 @@
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\bin\Release\netcoreapp2.0\Unity3dLogs.deps.json
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\bin\Release\netcoreapp2.0\Unity3dLogs.runtimeconfig.json
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\bin\Release\netcoreapp2.0\Unity3dLogs.runtimeconfig.dev.json
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\bin\Release\netcoreapp2.0\Unity3dLogs.dll
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\bin\Release\netcoreapp2.0\Unity3dLogs.pdb
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\obj\Release\netcoreapp2.0\Unity3dLogs.csprojResolveAssemblyReference.cache
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\obj\Release\netcoreapp2.0\Unity3dLogs.csproj.CoreCompileInputs.cache
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\obj\Release\netcoreapp2.0\Unity3dLogs.AssemblyInfoInputs.cache
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\obj\Release\netcoreapp2.0\Unity3dLogs.AssemblyInfo.cs
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\obj\Release\netcoreapp2.0\Unity3dLogs.dll
+c:\users\oleh\source\repos\Unity3dLogs\Unity3dLogs\obj\Release\netcoreapp2.0\Unity3dLogs.pdb

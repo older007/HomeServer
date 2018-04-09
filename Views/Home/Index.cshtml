@@ -1,0 +1,24 @@
+﻿@using Unity3dLogs.Controllers
+@using Unity3dLogs.Models
+@model List<HoloLog>
+	
+<div id ="data">
+	<ul id="1">
+		@foreach (var role in Model)
+		{
+			<li></li>
+			if (@role.LogType == "Warning")
+			{
+			<h2 style="color: red">@role.LogType</h2>
+			}
+			else
+			{
+				<h2 style="color: yellowgreen">@role.LogType</h2>
+			}
+			<h3>@role.LogMessage</h3>
+			<h3>@role.LogStackTrace</h3>
+			<h3>@role.LogTime</h3>
+			<h1></h1>
+		}
+	</ul>
+</div>
