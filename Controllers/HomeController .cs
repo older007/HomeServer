@@ -8,30 +8,29 @@ namespace Unity3dLogs.Controllers
     [Route("api/")]
     public class HomeController : Controller
     {
-        public static List<HoloLog> Holologs = new List<HoloLog>();
-
+        public List<UserTask> UsersTasks = new List<UserTask>();
         [HttpGet("Get")]
-        public IEnumerable<HoloLog> GetAll()
+        public IEnumerable<UserTask> GetAll()
         {
-            return Holologs;
+            return UsersTasks;
         }
 
         [HttpPost("Post")]
-        public IActionResult Create([FromBody] HoloLog item)
+        public IActionResult Create([FromBody] UserTask item)
         {
             if (item == null)
             {
                 return BadRequest();
             }
 
-            Holologs.Add(item);
+            UsersTasks.Add(item);
 
-            return CreatedAtRoute("GetTodo", new { id = item.LogMessage }, item);
+            return CreatedAtRoute("GetTodo", new { id = item.Header }, item);
         }
 
         public IActionResult Index()
         {
-            return View(Holologs);
+            return View(UsersTasks);
         }
     }
 }
